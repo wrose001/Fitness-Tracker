@@ -2,7 +2,7 @@ const router = require("express").Router();
 const User = require("../models/userModel.js");
 
 router.get("/api/workouts/range", function(req, res){
-    User.find().limit(7).then(function(data){
+    User.find().sort({day: -1}).limit(7).then(function(data){
         res.json(data)
     })
 });
@@ -24,7 +24,7 @@ router.post("/api/workouts", function(req, res){
 router.put("/api/workouts/:id", function(req, res){
     // console.log("Here are the request", req);
     // console.log("Here are the params", req.params);
-    // console.log("Here are the body", req.body);
+    console.log("Here are the body", req.body);
     User.findByIdAndUpdate(req.params.id, {exercises: req.body}).then(function(workout){
         return res.json(workout)
     }).catch(function(err){
