@@ -26,7 +26,7 @@ This web application allows a user to create and track a daily workout. Multiple
 
 ## Built With
 
-This app was built with HTML, CSS, and Bootstrap, with a Creative Theme - Preview from startbootstrap.com, which included font awesome icons. I personalized the color palette, changed the Portfolio sections by removing the carousel and replacing with a modal for each project, and added a muted video layout in the LinkedIn section, in addition to adding my own copyright free images downloaded from Pixabay. My resume was created with Creddle. I also added a GitHub icon in the Contact section and customized all of my information. Finally, in the Bio section, my image was added with an avatar class.
+This app was built with a Mongo database, using a Mongoose Schema. Routes are handled through Express and Morgan serving as middleware. The app has been deployed on Heroku. It should also be noted that the frontend code was provided.
 
 ## Contributing
 
