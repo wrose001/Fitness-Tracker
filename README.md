@@ -20,9 +20,9 @@ This web application is a revised and polished version of my digital portfolio.
 
 ## Images
 
-![Homepage](assets/img/portfolio/burger.jpg) 
-![New Workout](assets/img/portfolio/code.jpg) 
-![Stats Page](assets/img/portfolio/laptop.jpg) 
+![Homepage](public/images/home.png) 
+![New Workout](public/images/newWorkout.png) 
+![Stats Page](public/images/stats.png) 
 
 ## Built With
 
