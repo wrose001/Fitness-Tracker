@@ -4,10 +4,12 @@ This web application is a revised and polished version of my digital portfolio.
 
 ### Included Files
 
-* index.html
-* js
-* css with stylesheets file
-* assets with img and video folders
+* models folder
+* public folder
+* routes folder
+* seeders folder
+* package.json
+* server.js
 * README.md
 
 
@@ -34,7 +36,7 @@ Please make sure to update tests as appropriate.
 
 # Acknowledgments
 
-Many thanks to my tutor, Sai, for his help with frontend development.
+Many thanks to my tutors, Tammy and Sai, as well our TA, Owais, and Calvin, my instructor, for help with MongoDB, setting up the routes, and deployment on Heroku.
 
 
 
