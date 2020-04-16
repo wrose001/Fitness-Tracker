@@ -14,18 +14,13 @@ This web application is a revised and polished version of my digital portfolio.
 
 ## Deployment
 
-[https://wrose001.github.io/Personal-Website-1/](https://wrose001.github.io/Personal-Website-1/)
+[https://fitness-tracker-wr.herokuapp.com/?id=5e98cb77245598001711fef0](https://fitness-tracker-wr.herokuapp.com/?id=5e98cb77245598001711fef0)
 
 ## Images
 
-![Burger](assets/img/portfolio/burger.jpg) 
-![Code](assets/img/portfolio/code.jpg) 
-![Laptop](assets/img/portfolio/laptop.jpg) 
-![Mobile](assets/img/portfolio/mobile.jpg)
-![Notes](assets/img/portfolio/notes.jpg) 
-![Pets](assets/img/portfolio/pets.jpb) 
-![Masthead](assets/img/bg-masthead.jpg)
-![My Photo](assets/img/rose.png)   
+![Homepage](assets/img/portfolio/burger.jpg) 
+![New Workout](assets/img/portfolio/code.jpg) 
+![Stats Page](assets/img/portfolio/laptop.jpg) 
 
 ## Built With
 
