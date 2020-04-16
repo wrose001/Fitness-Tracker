@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const morgan = require("morgan");
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 const User = require("./models/userModel.js");
 
@@ -25,6 +25,6 @@ app.use(require("./routes/api.js"));
 
 app.use(require("./routes/view.js"));
 
-app.listen(port, function(){
+app.listen(PORT, function(){
     return console.log("App is running!")
 });
